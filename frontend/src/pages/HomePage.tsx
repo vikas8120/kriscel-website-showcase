@@ -7,7 +7,7 @@ function HomePage() {
         <div className="section-inner">
           <div className="section-heading">
             <span className="eyebrow">Featured Projects</span>
-            <h2>We build polished websites that turn ideas into strong digital experiences.</h2>
+            <h2>Turn ideas into strong digital experiences.</h2>
             <p>
               From premium brand sites to high-converting business platforms, we design and develop
               websites that look sharp, feel modern, and help our clients present their work with
