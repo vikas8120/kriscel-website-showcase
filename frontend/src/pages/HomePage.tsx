@@ -7,15 +7,25 @@ function HomePage() {
         <div className="section-inner">
           <div className="section-heading">
             <span className="eyebrow">Featured Projects</span>
-            <h2>High-contrast project cards on the deep slate band.</h2>
+            <h2>We build polished websites that turn ideas into strong digital experiences.</h2>
             <p>
-              This section now uses a white textured canvas so the cards, tags, and actions feel
-              lighter, cleaner, and more premium.
+              From premium brand sites to high-converting business platforms, we design and develop
+              websites that look sharp, feel modern, and help our clients present their work with
+              confidence.
             </p>
           </div>
           <div className="project-grid">
             {projects.map((project) => (
-              <article key={project.name} className={`project-card project-card--${project.accent}`}>
+              <a
+                key={project.name}
+                className={`project-card project-card--${project.accent} ${
+                  project.websiteUrl ? 'project-card--linked' : ''
+                }`}
+                href={project.websiteUrl}
+                target={project.websiteUrl ? '_blank' : undefined}
+                rel={project.websiteUrl ? 'noreferrer' : undefined}
+                aria-label={project.websiteUrl ? `Open ${project.name} website` : undefined}
+              >
                 <div
                   className={`project-thumbnail${project.image ? ' project-thumbnail--image' : ''}`}
                   style={
@@ -46,7 +56,7 @@ function HomePage() {
                     ))}
                   </div>
                 </div>
-              </article>
+              </a>
             ))}
           </div>
         </div>

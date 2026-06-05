@@ -2,6 +2,7 @@ export type Project = {
   name: string
   category: string
   accent: 'pearl' | 'gold' | 'steel' | 'slate'
+  websiteUrl?: string
   image?: string
   imageFit?: 'cover' | 'contain'
   imagePosition?: string
@@ -16,6 +17,7 @@ export const projects: Project[] = [
     name: 'Kriscel Tech Agency Website',
     category: 'Agency',
     accent: 'steel',
+    websiteUrl: 'https://share.google/PtBopwDAb4EUiXbJt',
     image: '/kriscel-agency-hero.jpeg',
     imageFit: 'contain',
     imagePosition: 'center',
@@ -30,6 +32,7 @@ export const projects: Project[] = [
     name: 'Symo Developers',
     category: 'Real Estate',
     accent: 'steel',
+    websiteUrl: 'https://symo-devlopers.vercel.app/',
     image: '/symo-developers-hero.jpeg',
     imageFit: 'contain',
     imagePosition: 'center',
@@ -49,6 +52,7 @@ export const projects: Project[] = [
     name: 'Vidhi Satya Law Associates',
     category: 'Professional',
     accent: 'slate',
+    websiteUrl: 'https://www.vidhisatya.com/',
     image: '/vidhi-satya-hero-screen.png',
     imageFit: 'contain',
     imagePosition: 'center',
@@ -63,6 +67,7 @@ export const projects: Project[] = [
     name: 'Indian Foods',
     category: 'Restaurant',
     accent: 'gold',
+    websiteUrl: 'https://indian-foods-malvika.vercel.app/',
     image: '/indian-foods-hero.jpeg',
     imageFit: 'contain',
     imagePosition: 'center',
@@ -82,6 +87,7 @@ export const projects: Project[] = [
     name: 'Interior Design Website',
     category: 'Portfolio',
     accent: 'slate',
+    websiteUrl: 'https://kriscel-interior.onrender.com',
     image: '/interior-design-hero.jpeg',
     imageFit: 'contain',
     imagePosition: 'center',
@@ -96,6 +102,7 @@ export const projects: Project[] = [
     name: 'Perfume Brand Website',
     category: 'Website',
     accent: 'gold',
+    websiteUrl: 'https://kriscel-perfume.onrender.com',
     image: '/perfume-brand-hero.jpeg',
     imageFit: 'contain',
     imagePosition: 'center',
@@ -110,6 +117,7 @@ export const projects: Project[] = [
     name: 'Car Accessories Website',
     category: 'Ecommerce',
     accent: 'slate',
+    websiteUrl: 'https://kriscel-car-assesories.onrender.com',
     image: '/car-accessories-hero.jpeg',
     imageFit: 'contain',
     imagePosition: 'center',
@@ -124,6 +132,7 @@ export const projects: Project[] = [
     name: 'Shoes Manufacturers Website',
     category: 'Website',
     accent: 'steel',
+    websiteUrl: 'https://shoes-manufacturers.onrender.com',
     image: '/shoes-manufacturers-hero.jpeg',
     imageFit: 'contain',
     imagePosition: 'center',
@@ -138,6 +147,7 @@ export const projects: Project[] = [
     name: 'Water Purifier Website',
     category: 'Landing Page',
     accent: 'pearl',
+    websiteUrl: 'https://water-purifiers.onrender.com',
     image: '/water-purifier-hero.jpeg',
     imageFit: 'contain',
     imagePosition: 'center',
@@ -152,6 +162,7 @@ export const projects: Project[] = [
     name: 'Jewelry E-Commerce Website',
     category: 'Ecommerce',
     accent: 'gold',
+    websiteUrl: 'https://jewellery-09ej.onrender.com',
     image: '/jewelry-ecommerce-hero.jpeg',
     imageFit: 'contain',
     imagePosition: 'center',
@@ -166,6 +177,7 @@ export const projects: Project[] = [
     name: 'Fire Safety Website',
     category: 'Corporate',
     accent: 'steel',
+    websiteUrl: 'https://fire-safety-website.onrender.com',
     image: '/fire-safety-hero.jpeg',
     imageFit: 'contain',
     imagePosition: 'center',
@@ -180,6 +192,7 @@ export const projects: Project[] = [
     name: 'Luxury Watches Website',
     category: 'Ecommerce',
     accent: 'gold',
+    websiteUrl: 'https://kriscel-watches.onrender.com',
     image: '/luxury-watches-hero.jpeg',
     imageFit: 'contain',
     imagePosition: 'center',

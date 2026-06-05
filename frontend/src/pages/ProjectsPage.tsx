@@ -7,15 +7,25 @@ function ProjectsPage() {
         <div className="section-inner">
           <div className="section-heading">
             <span className="eyebrow">Featured Projects</span>
-            <h2>High-contrast project cards on the deep slate band.</h2>
+            <h2>Our work blends design, performance, and brand storytelling.</h2>
             <p>
-              This section now uses a white textured canvas so the cards, tags, and actions feel
-              lighter, cleaner, and more premium.
+              Each project is crafted to showcase the client’s business clearly, build trust
+              quickly, and create a premium online presence that feels both memorable and
+              effective.
             </p>
           </div>
           <div className="project-grid">
             {projects.map((project) => (
-              <article key={project.name} className={`project-card project-card--${project.accent}`}>
+              <a
+                key={project.name}
+                className={`project-card project-card--${project.accent} ${
+                  project.websiteUrl ? 'project-card--linked' : ''
+                }`}
+                href={project.websiteUrl}
+                target={project.websiteUrl ? '_blank' : undefined}
+                rel={project.websiteUrl ? 'noreferrer' : undefined}
+                aria-label={project.websiteUrl ? `Open ${project.name} website` : undefined}
+              >
                 <div
                   className={`project-thumbnail${project.image ? ' project-thumbnail--image' : ''}`}
                   style={
@@ -46,7 +56,7 @@ function ProjectsPage() {
                     ))}
                   </div>
                 </div>
-              </article>
+              </a>
             ))}
           </div>
         </div>

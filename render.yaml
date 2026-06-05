@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: kriscel-tech-showcase
+    runtime: static
+    buildCommand: npm install --prefix frontend && npm run build --prefix frontend
+    staticPublishPath: frontend/dist
