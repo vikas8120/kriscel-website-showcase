@@ -243,6 +243,26 @@ export const projects: Project[] = [
     features: ['Luxury product displays', 'Product collections', 'Scroll storytelling', 'Premium animations'],
     technologies: ['React.js', 'GSAP', 'Tailwind CSS', 'Responsive Design'],
   },
+  {
+    name: 'Cookie Haven',
+    category: 'Bakery',
+    accent: 'gold',
+    websiteUrl: 'https://cookies-o829.onrender.com',
+    image: '/cookie-haven-hero.png',
+    imageFit: 'cover',
+    imagePosition: 'center top',
+    shortDescription:
+      'A premium cookies website showcasing handcrafted cookies through mouth-watering visuals and modern design.',
+    fullCaseStudy:
+      'Cookie Haven presents signature cookies and featured collections through an attractive, engaging digital experience that highlights freshness, quality, and brand personality.',
+    features: [
+      'Cookie showcase sections',
+      'Featured product collections',
+      'Modern bakery UI',
+      'Smooth scroll animations',
+    ],
+    technologies: ['React.js', 'Tailwind CSS', 'GSAP', 'Framer Motion'],
+  },
 ]
 
 export const palette = {
