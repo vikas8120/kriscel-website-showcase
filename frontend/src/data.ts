@@ -129,6 +129,46 @@ export const projects: Project[] = [
     technologies: ['React.js', 'GSAP', 'Three.js', 'Tailwind CSS'],
   },
   {
+    name: 'Restaurant Royale',
+    category: 'Restaurant',
+    accent: 'gold',
+    websiteUrl: 'https://restaurants-mjrx.onrender.com',
+    image: '/restaurant-royale-hero.png',
+    imageFit: 'cover',
+    imagePosition: 'center top',
+    shortDescription:
+      'A premium restaurant website showcasing culinary experiences through immersive food visuals and elegant layouts.',
+    fullCaseStudy:
+      'Restaurant Royale presents signature dishes, dining atmosphere, and menu discovery through a modern, visually rich restaurant experience.',
+    features: [
+      'Food showcase sections',
+      'Interactive menu presentation',
+      'Featured dishes display',
+      'Contact and reservation sections',
+    ],
+    technologies: ['React.js', 'Tailwind CSS', 'GSAP', 'Framer Motion'],
+  },
+  {
+    name: 'Handicrafts Heritage',
+    category: 'Website',
+    accent: 'gold',
+    websiteUrl: 'https://handicrafts-3789.onrender.com',
+    image: '/handicrafts-heritage-hero.png',
+    imageFit: 'cover',
+    imagePosition: 'center top',
+    shortDescription:
+      'A handcrafted products showcase website highlighting traditional artistry through elegant visuals and a modern user experience.',
+    fullCaseStudy:
+      'Handicrafts Heritage presents handmade products and artisan collections through a clean, premium layout that strengthens brand credibility and visual storytelling.',
+    features: [
+      'Handicraft product showcase sections',
+      'Artisan collection displays',
+      'Modern handcrafted-inspired UI',
+      'Smooth scroll animations',
+    ],
+    technologies: ['React.js', 'Tailwind CSS', 'GSAP', 'Framer Motion'],
+  },
+  {
     name: 'Shoes Manufacturers Website',
     category: 'Website',
     accent: 'steel',
