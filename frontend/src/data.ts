@@ -84,51 +84,6 @@ export const projects: Project[] = [
     technologies: ['React.js', 'Tailwind CSS', 'GSAP', 'Framer Motion'],
   },
   {
-    name: 'Interior Design Website',
-    category: 'Portfolio',
-    accent: 'slate',
-    websiteUrl: 'https://kriscel-interior.onrender.com',
-    image: '/interior-design-hero.jpeg',
-    imageFit: 'contain',
-    imagePosition: 'center',
-    shortDescription:
-      'An immersive interior design portfolio focused on visual storytelling, premium client acquisition, and elegant project presentation.',
-    fullCaseStudy:
-      'Large imagery, elegant transitions, and project-based storytelling create a rich digital portfolio that highlights luxury interior spaces and helps convert visitors into clients.',
-    features: ['Project showcase system', 'Before/after galleries', 'Scroll animations', 'Premium UI components'],
-    technologies: ['React.js', 'GSAP', 'Tailwind CSS', 'Responsive Design'],
-  },
-  {
-    name: 'Perfume Brand Website',
-    category: 'Website',
-    accent: 'gold',
-    websiteUrl: 'https://kriscel-perfume.onrender.com',
-    image: '/perfume-brand-hero.jpeg',
-    imageFit: 'contain',
-    imagePosition: 'center',
-    shortDescription:
-      'A premium fragrance brand experience with immersive storytelling, luxury visuals, and modern product presentation.',
-    fullCaseStudy:
-      'Designed to reflect the sophistication of a luxury perfume brand, the website guides visitors through collections while maintaining a premium identity through fluid interactions and sensory storytelling.',
-    features: ['Product storytelling', 'Collection showcase', 'Luxury visual design', 'Scroll-triggered animations'],
-    technologies: ['React.js', 'Three.js', 'GSAP', 'Tailwind CSS'],
-  },
-  {
-    name: 'Car Accessories Website',
-    category: 'Ecommerce',
-    accent: 'slate',
-    websiteUrl: 'https://kriscel-car-assesories.onrender.com',
-    image: '/car-accessories-hero.jpeg',
-    imageFit: 'contain',
-    imagePosition: 'center',
-    shortDescription:
-      'An automotive-focused e-commerce experience featuring dynamic product showcases and engaging visual storytelling.',
-    fullCaseStudy:
-      'The website showcases automotive accessories through immersive visuals, interactive user experiences, and performance-focused development with modern animation patterns.',
-    features: ['Automotive product showcase', 'Horizontal scrolling sections', '3D-inspired interactions', 'Product filtering'],
-    technologies: ['React.js', 'GSAP', 'Three.js', 'Tailwind CSS'],
-  },
-  {
     name: 'Restaurant Royale',
     category: 'Restaurant',
     accent: 'gold',
