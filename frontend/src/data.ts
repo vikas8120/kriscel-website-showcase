@@ -124,6 +124,46 @@ export const projects: Project[] = [
     technologies: ['React.js', 'Tailwind CSS', 'GSAP', 'Framer Motion'],
   },
   {
+    name: 'Lisha Engineers',
+    category: 'Engineering',
+    accent: 'steel',
+    websiteUrl: 'https://lisha-engineers-8zrk.onrender.com',
+    image: '/lisha-engineers-hero.jpeg',
+    imageFit: 'cover',
+    imagePosition: 'center top',
+    shortDescription:
+      'A civil and electrical engineering website showcasing infrastructure expertise, large-scale projects, and a confident brand presence.',
+    fullCaseStudy:
+      'Lisha Engineers presents bridge, transit, and structural work through a strong visual hierarchy, clear service navigation, and a polished construction-focused presentation that builds trust with potential clients.',
+    features: [
+      'Infrastructure project showcase',
+      'Civil and electrical services',
+      'Strong visual hero section',
+      'Professional company overview',
+    ],
+    technologies: ['React.js', 'Responsive Design', 'SEO Optimization', 'Modern UI'],
+  },
+  {
+    name: 'Kriscel EV',
+    category: 'Automotive',
+    accent: 'steel',
+    websiteUrl: 'https://kriscel-ev-o82g.onrender.com',
+    image: '/kriscel-ev-hero.png',
+    imageFit: 'cover',
+    imagePosition: 'center top',
+    shortDescription:
+      'A premium electric scooter and bike website designed to showcase modern mobility, performance, and a futuristic brand experience.',
+    fullCaseStudy:
+      'Kriscel EV presents electric scooters and bikes through a bold hero section, high-contrast visuals, and conversion-focused navigation that highlights range, charging, and test ride booking.',
+    features: [
+      'Electric vehicle hero showcase',
+      'Premium mobility branding',
+      'Feature-rich product sections',
+      'Call-to-action focused layout',
+    ],
+    technologies: ['React.js', 'Tailwind CSS', 'Responsive Design', 'Modern UI'],
+  },
+  {
     name: 'Shoes Manufacturers Website',
     category: 'Website',
     accent: 'steel',
